@@ -1,0 +1,178 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box; 
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+a{
+    text-decoration: none;
+}
+.contenedor{
+   flex-flow: column nowrap;
+    display: flex;   
+}
+.header{
+    display: flex;
+    background: url(paisajes.jpg);
+    background-position: center;
+    background-attachment: contain; 
+    background-size: cover; 
+    flex-flow: column nowrap;
+    height: 600px;
+    width: 100%; 
+}
+    .menu{
+        /* background: gray; */
+        display: flex; 
+        height: 50px;
+        text-transform: uppercase;
+        align-items: center;
+        border-bottom: 1px solid gray;
+        letter-spacing: 2px;
+    }
+    .logo{
+        flex: 1 1 auto;  
+    }
+    .logo a{
+        color: honeydew;
+        font-size: 20px;
+    }
+    .logo a:hover{
+        color: indigo;
+    }
+    .navegacion{
+        flex: 5 1 auto;
+    }
+    .navegacion a{
+        color: honeydew;
+        font-size: 13px;
+    }
+    .navegacion a:hover{
+        color: indigo;
+    }
+    .redes{ 
+        flex: 1 1 auto;
+    }
+    .redes a{
+        color: honeydew;
+        font-size: 13px ;
+    }
+    .redes a:hover{
+        color: indigo;
+    }
+    .texto{
+        display: flex;
+        align-items: center;
+        height: 580px;
+    }
+    h1{
+        font-family: "lora",serif;
+        color: rgb(0, 255, 255);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0px 50px;
+    }
+
+.section{
+    background: rgb(253, 253, 253);
+    display: flex;
+    margin: 0px 20px;
+}
+    .articulos{
+        background: #fff;
+        display: flex;
+        flex: 2 1 100%;
+        flex-flow: row wrap;
+        
+    }
+    .article{
+        background: rgb(180, 179, 179);
+        flex: 1 1 45%;
+        margin: 10px 10px 0px 0px;
+       
+    }
+    .article img{
+        width: 100%;
+    }
+    .article a{
+        background: black;
+        font-size: 11px;
+        color: white;
+    }
+    h3{
+        letter-spacing: 1px;
+        font-size: 12px;
+        color: white;
+        margin: 5px;
+        margin-top: -50px;
+    }
+    h2{
+        font-size: 15px;
+        color: white;
+        margin: 5px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .article a{
+        background: black;
+        color: white;
+        margin: 10px;
+        padding: 5px;
+        display: inline-block;
+    }
+    .article a:hover{
+        background: rgb(83, 83, 83);
+    }
+    .nav{
+        background: black;
+       
+        flex: 1 1 100%;
+        margin: 10px 10px 0 0px;
+    }
+    .nav a{
+        color: #fff;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+    .nav a:hover{
+        background: rgb(248, 111, 111);
+    }
+    .aside{
+        background: blanchedalmond;
+        flex: 1 1 auto;
+        margin: 10px 10px 0 0px;
+    }
+    h4{
+        text-transform: uppercase;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .publicidad{
+        background: crimson;
+        flex: 1 1 auto;
+    }
+    .footer{
+        display: flex;
+        justify-content: center; 
+       background: black;
+       margin-top: 10px;
+    }
+        .pie{
+            text-align: center;
+            
+        }
+        .pie a{
+            color: #fff;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 10px 0px ;
+
+        }
